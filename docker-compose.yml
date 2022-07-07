@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  phpmyadmin:
+    image: phpmyadmin
+    build:
+      context: Programming/we/phpMyAdmin
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: development
+    ports:
+      - 5000:5000
