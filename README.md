@@ -1,4 +1,4 @@
-# YpoxreotikiErgasia22_E19155_Samolis_Dimitrios
+# Web Service apps με Dockerfile και json
 
 Αρχικά δημιουργόυμε αρχείο Dockerfile μαζί με το docker-compose.yml. Με αυτά θα δημιουργήσουμε το image με τα packages,τα directories,την πόρτα (5000) και το αρχείο webServise.py.
 
